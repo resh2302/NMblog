@@ -1,0 +1,51 @@
+header{
+	min-height: 300px;
+}
+body{
+	background: url('../images/paper_background.jpg') center center fixed;
+}
+
+#home-content{
+	min-height: 500px;
+}
+
+/*ref: http://jtauber.github.io/articles/css-hexagon.html*/
+.hex {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+}
+.hex .top {
+	border-top-style: inset;
+border-right-style: inset;
+border-bottom-style: inset;
+border-left-style: inset;
+    width: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid rgba(255,255,255,0);
+    border-right: 52px solid rgba(255,255,255,0);
+}
+.hex .middle {
+    width: 104px;
+    height: 60px;
+    background: #6C6;
+}
+.hex .bottom {
+	border-style: inset; 
+    width: 0;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid rgba(255,255,255,0);
+    border-right: 52px solid rgba(255,255,255,0);
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: 53px;
+}
+.hex-row.odd .hex:first-child {
+	visibility: hidden;
+}
+.hex-content{
+
+}
