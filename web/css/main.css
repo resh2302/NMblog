@@ -2,7 +2,8 @@ header{
 	min-height: 300px;
 }
 body{
-	background: url('../images/paper_background.jpg') center center fixed;
+	background: url('../images/paper_background.jpg') no-repeat top left fixed;
+background-size: cover;
 }
 
 #home-content{
@@ -12,40 +13,142 @@ body{
 /*ref: http://jtauber.github.io/articles/css-hexagon.html*/
 .hex {
     float: left;
-    margin-left: 3px;
-    margin-bottom: -26px;
+    /*margin-left: 3px;*/
+    margin-left: 12px;
+    margin-bottom: -24px;
+    /*margin-bottom: -26px;*/
 }
 .hex .top {
+	border-color: transparent transparent transparent transparent;
+	border-color: rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
 	border-top-style: inset;
-border-right-style: inset;
-border-bottom-style: inset;
-border-left-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
     width: 0;
     border-bottom: 30px solid #6C6;
-    border-left: 52px solid rgba(255,255,255,0);
-    border-right: 52px solid rgba(255,255,255,0);
+    /*border-left: 52px solid rgba(255,255,255,0);*/
+    border-left: 68px solid rgba(255,255,255,0);
+    border-right: 68px solid rgba(255,255,255,0);
+    /*border-right: 52px solid rgba(255,255,255,0);*/
 }
 .hex .middle {
-    width: 104px;
-    height: 60px;
+    /*width: 104px;*/
+    width: 135px;
+    height: 94px;
+    /*height: 60px;*/
     background: #6C6;
+    text-align: center;
 }
 .hex .bottom {
-	border-style: inset; 
+	border-color: transparent transparent transparent transparent;
+	border-color: rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0) #ffffff;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
     width: 0;
     border-top: 30px solid #6C6;
-    border-left: 52px solid rgba(255,255,255,0);
-    border-right: 52px solid rgba(255,255,255,0);
+    /*border-left: 52px solid rgba(255,255,255,0);*/
+    border-left: 68px solid rgba(255,255,255,0);
+    border-right: 68px solid rgba(255,255,255,0);
+    /*border-right: 52px solid rgba(255,255,255,0);*/
 }
 .hex-row {
     clear: left;
 }
 .hex-row.even {
-    margin-left: 53px;
+    /*margin-left: 53px;*/
+    margin-left: 74px;
 }
-.hex-row.odd .hex:first-child {
+.hex-row.odd a:first-child {
 	visibility: hidden;
 }
-.hex-content{
 
+.hex .middle img{
+	width: 50%;
+	margin-top: -8px;
+}
+
+#hex2 .top{
+	/*background-color: #64c3c9;*/
+	border-bottom: 30px solid #64c3c9;
+}
+
+#hex2 .middle{
+	background-color: #64c3c9;
+}
+
+#hex2 .bottom{
+	border-top: 30px solid #64c3c9;
+}
+
+#hex3 .top{
+	border-bottom: 30px solid #c9cc8e;
+}
+
+#hex3 .middle{
+	background-color: #c9cc8e;
+}
+
+#hex3 .bottom{
+	border-top: 30px solid #c9cc8e;
+}
+
+#hex4 .middle{
+	background-color: #e0b298;
+}
+#hex4 .bottom{
+	border-top: 30px solid #e0b298;
+}
+
+#hex4 .top{
+	border-bottom: 30px solid #e0b298;
+}
+
+#hex5 .middle{
+	background-color: #b7a9a9;
+}
+
+#hex5 .bottom{
+	border-top: 30px solid #b7a9a9;
+}
+
+#hex5 .top{
+	border-bottom: 30px solid #b7a9a9;
+}
+
+#hex6 .middle{
+	background-color: #a0b17a;
+}
+
+#hex6 .bottom{
+	border-top: 30px solid #a0b17a;
+}
+
+#hex6 .top{
+	border-bottom: 30px solid #a0b17a;
+}
+
+#hex8 .middle{
+	background-color: #98dad8;
+}
+
+#hex8 .bottom{
+	border-top: 30px solid #98dad8;
+}
+
+#hex8 .top{
+	border-bottom: 30px solid #98dad8;
+}
+
+#hex9 .middle{
+	background-color: #cd9686;
+}
+#hex9 .bottom{
+	border-top: 30px solid #cd9686;
+}
+
+#hex9 .top{
+	border-bottom: 30px solid #cd9686;
 }
