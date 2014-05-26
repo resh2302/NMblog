@@ -1,9 +1,15 @@
 header{
+	background: url(../images/header.png) no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+	/*width: 100%;*/
 	min-height: 300px;
+	margin-top: 40px;
 }
+
 body{
 	background: url('../images/paper_background.jpg') no-repeat top left fixed;
-background-size: cover;
+	background-size: cover;
 }
 
 #home-content{
