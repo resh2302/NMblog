@@ -2,9 +2,8 @@
 
     <div id="home-content">	
     	<div class="row">
-            <div class="hex-content small-12  large-7 large-centered medium-9 medium-centered columns">
-                
-                    <div class="hex-row odd">
+            <div class="hex-content small-5 small-centered large-7 large-centered medium-7 medium-centered columns">
+                    <div class="hex-row odd row">
                         <div class="hex" id="hex2">
                             <a href="#" id="markiImg">
                                 <img src="images/marki2.png">
@@ -23,7 +22,7 @@
                         </div>  
                         <div class="contenthover">
                             <a href="#">
-                                <img src="images/marki-hover.png">
+                                <img src="images/jackie-hover.png">
                             </a>
                         </div>                      
                     </div>
@@ -35,20 +34,15 @@
                         </div>
                         <div class="contenthover">
                             <a href="#">
-                                <img src="images/marki-hover.png">
+                                <img src="images/shannon-hover.png">
                             </a>
                         </div>
-                        <div class="hex" id="hex5">
-                            <a href="#">
+                        <div class="hex ch_wrapper" id="hex5">
+                            <a href="http://nightmarket.thestop.org/">
                                 <img src="images/centerhex.png">
                             </a>
                         </div>
-                        <div class="contenthover">
-                            <a href="#">
-                                <img src="images/marki-hover.png">
-                            </a>
-                        </div>
-                        
+                                               
                         <div class="hex" id="hex6">
                             <a href="#">
                                 <img src="images/kate2.png">
@@ -57,7 +51,7 @@
                         
                         <div class="contenthover">
                             <a href="#">
-                                <img src="images/marki-hover.png">
+                                <img src="images/kate-hover.png">
                             </a>
                         </div>
                     </div>
@@ -70,7 +64,7 @@
                         
                         <div class="contenthover">
                             <a href="#">
-                                <img src="images/marki-hover.png">
+                                <img src="images/prabhjot-hover.png">
                             </a>
                         </div>
                         
@@ -82,11 +76,10 @@
                         
                         <div class="contenthover">
                             <a href="#">
-                                <img src="images/marki-hover.png">
+                                <img src="images/reshma-hover.png">
                             </a>
                         </div>
                     </div>
-                
             </div>
         </div>
     </div>
@@ -97,7 +90,7 @@
         $('.hex').contenthover({
             width: 0,
             height: 182,
-            overlay_opacity:0.8,
+            overlay_opacity:1,
             overlay_width: 0
         });
     </script>

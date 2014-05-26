@@ -3,20 +3,17 @@ header{
 }
 body{
 	background: url('../images/paper_background.jpg') no-repeat top left fixed;
-background-size: cover;
+	background-size: cover;
 }
 
 #home-content{
 	min-height: 500px;
 }
 
-/*ref: http://jtauber.github.io/articles/css-hexagon.html*/
 .hex {
     float: left;
-    /*margin-left: 3px;*/
     margin-right: 12px;
     margin-bottom: -24px;
-    /*margin-bottom: -26px;*/
 	width: 172px;
 	position: relative;
 
@@ -30,16 +27,12 @@ background-size: cover;
 	border-left-style: inset;
     width: 0;
     border-bottom: 30px solid #6C6;
-    /*border-left: 52px solid rgba(255,255,255,0);*/
     border-left: 68px solid rgba(255,255,255,0);
     border-right: 68px solid rgba(255,255,255,0);
-    /*border-right: 52px solid rgba(255,255,255,0);*/
 }
 .hex .middle {
-    /*width: 104px;*/
     width: 135px;
     height: 94px;
-    /*height: 60px;*/
     background: #6C6;
     text-align: center;
 }
@@ -52,128 +45,26 @@ background-size: cover;
 	border-left-style: inset;
     width: 0;
     border-top: 30px solid #6C6;
-    /*border-left: 52px solid rgba(255,255,255,0);*/
     border-left: 68px solid rgba(255,255,255,0);
     border-right: 68px solid rgba(255,255,255,0);
-    /*border-right: 52px solid rgba(255,255,255,0);*/
 }
 .hex-row {
     clear: left;
 }
-.hex-row.even {
-    /*margin-left: 53px;*/
-    /*margin-left: 74px;*/
-}
+
 .hex-row.odd {
 	margin-left: 91px;
 }
 
-.hex .middle img{
-	width: 50%;
-	margin-top: -8px;
+#hex5 a img{
+	width: 172px;
 }
-
-#hex2 .top{
-	/*background-color: #64c3c9;*/
-	border-bottom: 30px solid #64c3c9;
-}
-
-#hex2 .middle{
-	background-color: #64c3c9;
-}
-
-#hex2 .bottom{
-	border-top: 30px solid #64c3c9;
-}
-
-#hex3 .top{
-	border-bottom: 30px solid #c9cc8e;
-}
-
-#hex3 .middle{
-	background-color: #c9cc8e;
-}
-
-#hex3 .bottom{
-	border-top: 30px solid #c9cc8e;
-}
-
-#hex4 .middle{
-	background-color: #e0b298;
-}
-#hex4 .bottom{
-	border-top: 30px solid #e0b298;
-}
-
-#hex4 .top{
-	border-bottom: 30px solid #e0b298;
-}
-
-#hex5 .middle{
-	background-color: #b7a9a9;
-}
-
-#hex5 .bottom{
-	border-top: 30px solid #b7a9a9;
-}
-
-#hex5 .top{
-	border-bottom: 30px solid #b7a9a9;
-}
-
-#hex6 .middle{
-	background-color: #a0b17a;
-}
-
-#hex6 .bottom{
-	border-top: 30px solid #a0b17a;
-}
-
-#hex6 .top{
-	border-bottom: 30px solid #a0b17a;
-}
-
-#hex8 .middle{
-	background-color: #98dad8;
-}
-
-#hex8 .bottom{
-	border-top: 30px solid #98dad8;
-}
-
-#hex8 .top{
-	border-bottom: 30px solid #98dad8;
-}
-
-#hex9 .middle{
-	background-color: #cd9686;
-}
-#hex9 .bottom{
-	border-top: 30px solid #cd9686;
-}
-
-#hex9 .top{
-	border-bottom: 30px solid #cd9686;
-}
-
-/*.hex-row a{
-	float: left;
-	width: 157px;
-}*/
-
 /* content hover plugin css */
 
-.contenthover { /*padding:20px 20px 10px 20px;*/ display: none; 
-	/*position: absolute;
-	top: 0;
-	left: 0;
-	width: 172px;
-	height: 182px;*/
+.contenthover { 
+	display: none; 
 }
-/*.contenthover, .contenthover h3, .contenthover a { color:#fff; }
-.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
-.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
-.contenthover a.mybutton:hover { background:#34742d }*/
+
 .ch_hover{
 	background: none;
 }
@@ -184,3 +75,41 @@ background-size: cover;
 	height: 182px;
 }
 /* ---------------------------- */
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait){
+	.hex-content{
+		width: 75.8%;
+	}
+}
+
+/* iPhone (landscape) --------- */
+@media only screen and (min-width : 480px) and (max-width : 768px) and (orientation : landscape){
+	.ch_wrapper{
+		margin-top: 10px;
+		width: 100% !important;
+	}
+	.hex-row.odd {
+		margin-left: 0px;
+	}
+	#hex5{
+		margin-bottom: 0;
+	}
+}
+
+/* iPhone (portrait) --------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) and (orientation : portrait){
+	.hex-content{
+		width:64%;
+	}
+	.ch_wrapper{
+		margin-top: 10px;
+		width: 100% !important;
+	}
+	.hex-row.odd {
+		margin-left: 0px;
+	}
+	#hex5{
+		margin-bottom: 0;
+	}
+}
