@@ -14,9 +14,12 @@ background-size: cover;
 .hex {
     float: left;
     /*margin-left: 3px;*/
-    margin-left: 12px;
+    margin-right: 12px;
     margin-bottom: -24px;
     /*margin-bottom: -26px;*/
+	width: 172px;
+	position: relative;
+
 }
 .hex .top {
 	border-color: transparent transparent transparent transparent;
@@ -59,10 +62,10 @@ background-size: cover;
 }
 .hex-row.even {
     /*margin-left: 53px;*/
-    margin-left: 74px;
+    /*margin-left: 74px;*/
 }
-.hex-row.odd a:first-child {
-	visibility: hidden;
+.hex-row.odd {
+	margin-left: 91px;
 }
 
 .hex .middle img{
@@ -152,3 +155,32 @@ background-size: cover;
 #hex9 .top{
 	border-bottom: 30px solid #cd9686;
 }
+
+/*.hex-row a{
+	float: left;
+	width: 157px;
+}*/
+
+/* content hover plugin css */
+
+.contenthover { /*padding:20px 20px 10px 20px;*/ display: none; 
+	/*position: absolute;
+	top: 0;
+	left: 0;
+	width: 172px;
+	height: 182px;*/
+}
+/*.contenthover, .contenthover h3, .contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }*/
+.ch_hover{
+	background: none;
+}
+.ch_wrapper{
+	float: left;
+	margin-right: 12px;
+	margin-top: -34px;
+	height: 182px;
+}
+/* ---------------------------- */
