@@ -160,6 +160,9 @@ body{
 	.hex-content{
 		width: 75.8%;
 	}
+	header {
+		min-height: 150px;
+	}
 }
 
 /* iPhone (landscape) --------- */
@@ -173,6 +176,9 @@ body{
 	}
 	#hex5{
 		margin-bottom: 0;
+	}
+	header {
+		min-height: 200px;
 	}
 }
 
@@ -190,5 +196,8 @@ body{
 	}
 	#hex5{
 		margin-bottom: 0;
+	}
+	header {
+		min-height: 120px;
 	}
 }
