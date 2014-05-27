@@ -4,7 +4,8 @@
 
 
 header{
-	background: url(../images/header.png) no-repeat;
+	/*background: url(../images/header.png) no-repeat;*/
+	background: url(../images/nightMarketLogo.png) no-repeat;
 	background-size: 100%;
 	text-indent: -9999px;
 	/*width: 100%;*/
