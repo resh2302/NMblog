@@ -46,6 +46,17 @@ include "header.php";
 
             </div>
         </div>
+        <div class="row">
+            <div class="small-8 small-centered columns">
+                <form action="" method="POST">
+                    
+                    <!--put comment engine here-->
+                    
+                    <!--This will give you the blog id, for each page it will be different-->
+                    <input type="hidden" name="blog_id" value="1">
+                </form>
+            </div>
+        </div>
     </div>
     
 </div>
