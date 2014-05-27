@@ -25,7 +25,9 @@ include "header.php";
                         
                     </div>
                     <div class="small-2 columns auth-img">
-                                <img src="images/shannon2.png" />
+                        
+                        <img class="hide-for-small" src="images/shannon2.png">
+                        
                     </div>
                 </div>
                  
@@ -48,5 +50,7 @@ include "header.php";
     
 </div>
 </div>
+
+<?php include 'footer.php'; ?>
 
 
