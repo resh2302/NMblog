@@ -13,8 +13,8 @@ include "header.php";
             <div class="small-8 small-centered columns blog-head">
                 <div class="row">
                     <div class="small-10 columns line">
-                        <h1>Green Vendors</h1>
-                        <label class="by">By</label><label class="name"> SHANNON QUINN</label>
+                        <h1>REUNION ISLAND COFFEE</h1>
+                        <label class="by">By</label><label class="name"> PRABHJOT MAND</label>
                         <div class="divline"></div>
                         <div class="row">
                             <div class="medium-4 columns date-cont"><img src="images/clock.png" /><label class="date"> May 26, 2014</label></div>
@@ -26,7 +26,7 @@ include "header.php";
                     </div>
                     <div class="small-2 columns auth-img">
                         
-                        <img src="images/shannon2.png" height="100" width="100">
+                        <img src="images/prabhjot2.png" height="100" width="100">
                         
                     </div>
                 </div>
@@ -36,13 +36,13 @@ include "header.php";
         </div>
         <div class="row">
             <div class="small-8 small-centered columns blog-content">
-                <p>Gentrify street art jean shorts Bushwick. Marfa VHS paleo, wayfarers scenester gentrify organic Helvetica chillwave tote bag sriracha Pitchfork Kickstarter food truck 8-bit. Yr raw denim sartorial, banh mi chambray Kickstarter street art roof party Cosby sweater pork belly gluten-free cornhole church-key. Semiotics Portland freegan farm-to-table, gluten-free wayfarers vegan. Wolf Carles sustainable vinyl. Church-key tousled chia PBR&B Portland cliche. Carles butcher yr tattooed skateboard bespoke.</p>
+                <p>Reunion Island Coffee is a Canadian company that is founded on marvelous principles. It's not just about high-quality coffee - they really are stanch to sustainability, from auxiliary co-op farmers and fair profession to promoting liable farm administration. They support the Rainforest Alliance, and use Bullfrog Power in their Canadian sweltering operation. With fair trade and organic certified coffees, Reunion Island is bringing us astounding brews with zero culpability factors.</p>
 
-                <P>Four loko Kickstarter try-hard, quinoa messenger bag banh mi twee sartorial fashion axe Brooklyn Carles cornhole banjo wolf. Intelligentsia bicycle rights gluten-free kitsch, dreamcatcher photo booth kale chips narwhal occupy pour-over DIY gentrify American Apparel 3 wolf moon. Chia Schlitz fap, YOLO Pinterest post-ironic ethical roof party. Yr wayfarers lomo synth craft beer, chambray letterpress scenester twee skateboard stumptown hashtag 3 wolf moon jean shorts. Kickstarter Banksy kitsch hoodie plaid, stumptown selvage ethical single-origin coffee quinoa asymmetrical. Single-origin coffee flexitarian before they sold out chia. Salvia banjo wolf quinoa Helvetica raw denim tousled.</P>
+                <P>Out of a bag of Reunion Island Coffee, and let me tell you, it is a thorny decision on which variety to choose. They have everything from the more stock to the exotic - I tried to count the available varieties and came up with ninety-six plus twenty-six kinds of pods! Um, wow. </P>
 
-                <P>Vinyl occupy distillery, VHS four loko lo-fi PBR. Blog semiotics 8-bit, vinyl irony kale chips photo booth sartorial brunch paleo. Bicycle rights crucifix plaid, pour-over Godard hashtag next level art party freegan meh. Cornhole Portland PBR gastropub flannel. Fanny pack wayfarers lo-fi, pork belly tattooed McSweeney's 90's you probably haven't heard of them. Ethical Wes Anderson Neutra, drinking vinegar four loko squid semiotics ennui small batch mlkshk viral chambray fashion axe. Meh Intelligentsia Marfa direct trade.</P>
+                <P>Although tempted by the gingered varieties, I went with the Siesta Decaf. It's a nice, bright, medium-light roast that is a perfect contrast to the dark and bold roast that is my regular brew. I'm a serious coffee lover - I grind fresh beans and make a cappuccino every morning with my beloved espresso machine, so I feel qualified to say that the Siesta Decaf is a lovely bean. It doesn't have the 'flat' flavour that is often found in a lighter roast; instead it has a robust flavour, just lighter. It is decaffeinated with the Swiss Water process (in British Columbia!), which uses no chemicals to remove the caffeine and also ensures the flavour stays at its fullest (some other decaffeinating methods which use chemicals also alter the flavour of the bean).</P>
 
-<P>Squid next level Banksy slow-carb banjo butcher, forage Pitchfork semiotics meh pour-over farm-to-table meggings deep v whatever. Retro Kickstarter narwhal +1, food truck mlkshk leggings Godard Shoreditch semiotics cliche. Lomo fap tattooed blog. You probably haven't heard of them church-key crucifix bicycle rights, Austin ethnic disrupt messenger bag. Sartorial gentrify retro pickled vinyl before they sold out. Disrupt Intelligentsia dreamcatcher, keffiyeh pork belly four loko flannel tattooed Thundercats vinyl Kickstarter Shoreditch kale chips banh mi bitters. Vinyl fixie banjo McSweeney's, squid shabby chic lomo pickled.</p>
+<P>The quality of the coffee is a major selling point, but what tips the balance with Reunion Island Coffee for me is their commitment to better lives and a better world. I was thrilled to review the experiences of the workers as well as the customers associated with such an impressive Canadian company, and would honestly recommend their products.</p>
 
             </div>
         </div>
@@ -127,5 +127,7 @@ include "header.php";
 </div>
 
 <?php include 'footer.php'; ?>
+
+
 
 
