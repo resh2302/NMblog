@@ -26,7 +26,7 @@ include "header.php";
                     </div>
                     <div class="small-2 columns auth-img">
                         
-                        <img class="hide-for-small" src="images/shannon2.png">
+                        <img src="images/shannon2.png" height="100" width="100">
                         
                     </div>
                 </div>
