@@ -51,7 +51,7 @@
 
                 <p>One of the standout participants for 2014 is <span class="emph">Rose &amp; Sons</span>, a small but beloved Annex brunch hotspot. Its slightly tight diner-style layout of booths and barstools may require a wait on weekends, but your patience will be paid off. The indulgent eats of owner Anthony Rose's menu stretch the definitions of breakfast with a beefy patty melt, syrupy bread pudding, and brisket on cornbread leaving the hungriest brunch-goers satisfied. Even the Caesar follows suit with the eyeball-popping additions of a speared pickle and sausage on top of the heavily salt and peppered glass. Ready your taste buds to feel the heat!</p>
 
-                <img src="images/ceasar.jpg" alt="[image] Ceasar from Rose &amp; Sons" class="imgContent" />
+                <p class="imgContent"><img src="images/ceasar.jpg" alt="[image] Ceasar from Rose &amp; Sons"  /></p>
 
                 <p>For carnivorous cravers --- or anyone nursing a hangover --- these meaty dishes will surely do the trick. The brisket is prepared with tender love and care, falling off the fork in perfect bite-sized flakes while providing the perfect foil for the cornbread. This should come as no surprise to anyone who's had the pleasure of pigging out at <span class="emph">Big Crow</span>, Rose's equally mouth watering (and meat heavy) restaurant located directly behind Rose &amp; Sons. Downtown dwellers won't regret the trip up to Dupont.</p>
 
