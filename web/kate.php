@@ -7,7 +7,7 @@
         
         <div class="row">  
           <div class="small-12 black-ribbon">
-              <a href="index.php"><img class="bookmark" src="images/bookmark.png" /></a>
+              <a href="index.php"><img class="bookmark" src="images/bookmark.png" alt="[image] bookmark icon" /></a>
           </div>
         </div>
         
@@ -24,12 +24,12 @@
                         
                         <div class="row">                         
                             <div class="medium-4 columns date-cont">
-                                <img src="images/clock.png" />
+                                <img src="images/clock.png" alt="[image] clock icon" />
                                 <span class="date"> May 26, 2014</span>
                             </div>
                             
                             <div class="medium-4 columns comments-cont">
-                                <img src="images/comments.png" />
+                                <img src="images/comments.png" alt="[image] comments icon" />
                                 <label class="comments"></label>
                             </div>
 
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="small-12 medium-2 columns auth-img">                      
-                        <img src="images/kate2.png">
+                        <img src="images/kate2.png" alt="[image] Portrait Kate Gollogly">
                     </div>
                 </div>
 
@@ -61,6 +61,13 @@
                 <p>To learn more about the Amsterdam Brewing Co. visit <a href="http://www.amsterdambeer.com/" target="_blank">amsterdambeer.com</a>.</p>
                 <p>To learn more about Amsterdam BrewHouse, visit <a href="http://www.amsterdambrewhouse.com/" target="_blank">amsterdambrewhouse.com</a>.</p>
             </div>
+
+            <div class="row">
+            <div class="small-8 small-centered columns blog-content">
+                <div class="fb-share-button" data-href="http://markisveen.com/nightMarket/index.php" data-type="button"></div>
+            </div>
+        </div>
+            
         </div>
 
         <div class="row">
@@ -72,7 +79,7 @@
                     <div id="ce_list">                      
                     </div>
 
-                    <form name="ce_form" id="ce_form" method="post" action=" ">
+                    <form name="ce_form" id="ce_form" method="post" action=".">
 
                       <div class="row">
                         <div class="large-12 columns">

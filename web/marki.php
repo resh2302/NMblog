@@ -7,7 +7,7 @@
         
         <div class="row">  
           <div class="small-12 black-ribbon">
-              <a href="index.php"><img class="bookmark" src="images/bookmark.png" /></a>
+              <a href="index.php"><img class="bookmark" src="images/bookmark.png" alt="[image] bookmark icon" /></a>
           </div>
         </div>
         
@@ -24,12 +24,12 @@
                         
                         <div class="row">                         
                             <div class="medium-4 columns date-cont">
-                                <img src="images/clock.png" />
+                                <img src="images/clock.png" alt="[image] clock icon" />
                                 <span class="date"> May 26, 2014</span>
                             </div>
                             
                             <div class="medium-4 columns comments-cont">
-                                <img src="images/comments.png" />
+                                <img src="images/comments.png" alt="[image] comments icon" />
                                 <label class="comments"></label>
                             </div>
 
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="small-12 medium-2 columns auth-img">                      
-                        <img src="images/marki2.png">
+                        <img src="images/marki2.png" alt="[image] Portrait Marki Sveen">
                     </div>
                 </div>
 
@@ -57,6 +57,13 @@
 
                 <p>Of course, these are merely three of the many restaurants taking part in the Night Market for 2014. At least half the fun of this kind of event comes from exploring and discovering a few new favourites. If one tip can be passed along to a first-timer, make sure you pace yourself (and leave room for dessert)!</p>
             </div>
+
+            <div class="row">
+                        <div class="small-8 small-centered columns blog-content">
+                            <div class="fb-share-button" data-href="http://markisveen.com/nightMarket/index.php" data-type="button"></div>
+                        </div>
+            </div>
+            
         </div>
 
         <div class="row">
@@ -68,7 +75,7 @@
                     <div id="ce_list">                      
                     </div>
 
-                    <form name="ce_form" id="ce_form" method="post" action=" ">
+                    <form name="ce_form" id="ce_form" method="post" action=".">
 
                       <div class="row">
                         <div class="large-12 columns">

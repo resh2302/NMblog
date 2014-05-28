@@ -7,7 +7,7 @@
         
         <div class="row">  
           <div class="small-12 black-ribbon">
-              <a href="index.php"><img class="bookmark" src="images/bookmark.png" /></a>
+              <a href="index.php"><img class="bookmark" src="images/bookmark.png" alt="[image] bookmark icon" /></a>
           </div>
         </div>
         
@@ -24,12 +24,12 @@
                         
                         <div class="row">                         
                             <div class="medium-4 columns date-cont">
-                                <img src="images/clock.png" />
+                                <img src="images/clock.png" alt="[image] clock icon" />
                                 <span class="date"> May 26, 2014</span>
                             </div>
                             
                             <div class="medium-4 columns comments-cont">
-                                <img src="images/comments.png" />
+                                <img src="images/comments.png" alt="[image] comments icon" />
                                 <label class="comments"></label>
                             </div>
 
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="small-12 medium-2 columns auth-img">                      
-                        <img src="images/shannon2.png">
+                        <img src="images/shannon2.png" alt="[image] Portrait Shannon Quinn">
                     </div>
                 </div>
 
@@ -54,8 +54,13 @@
                 
                 <p>Last but not least, there’s Toronto’s Actinolite. These guys know a thing or two about being green. Their focus is bringing urban gardens to the table for fresh and local menu options that evolve with seasonal availability. They believe that fresh tastes better, and constantly seek high-quality ingredients, visiting farmers markets and the actual town of Actinolite where the restaurant got its name. I’d LOVE to try their squid with wild ginger and peas, or the pike with knotweed, watercress, and elm. Look for Actinolite at this year’s Night Market and enjoy some environmentally friendly goodness!</p>
                 
-<p>These are only a few of the Night Market’s amazing vendors. The best way to find even more great green vendors is to head out to the Market yourself and try some fantastic food. Keep greening!
-</p>
+                <p>These are only a few of the Night Market’s amazing vendors. The best way to find even more great green vendors is to head out to the Market yourself and try some fantastic food. Keep greening!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="small-8 small-centered columns blog-content">
+                <div class="fb-share-button" data-href="http://markisveen.com/nightMarket/index.php" data-type="button"></div>
             </div>
         </div>
 
@@ -68,7 +73,7 @@
                     <div id="ce_list">                      
                     </div>
 
-                    <form name="ce_form" id="ce_form" method="post" action=" ">
+                    <form name="ce_form" id="ce_form" method="post" action=".">
 
                       <div class="row">
                         <div class="large-12 columns">
