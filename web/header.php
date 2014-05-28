@@ -1,6 +1,7 @@
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>Night Market Preview Blog</title>
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
