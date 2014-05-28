@@ -5,8 +5,10 @@
     <div class="row">
     <div class="large-12 columns blgcontent">
         
-        <div class="black-ribbon">
-            <a href="index.php"><img class="bookmark" src="images/bookmark.png" /></a>
+        <div class="row">  
+          <div class="small-12 black-ribbon">
+              <a href="index.php"><img class="bookmark" src="images/bookmark.png" /></a>
+          </div>
         </div>
         
         <div class="row">
