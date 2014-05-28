@@ -47,7 +47,15 @@
 
         <div class="row">
             <div class="small-8 small-centered columns blog-content">
-                <p>Place content here.</p>
+                <p>One of the main focusses of The Stop Night Market is highlighting environmentally conscious food and drink vendors. With that, there are some great environmentally friendly food options at this year’s Night Market, and I’d like to share my favorite green vendors with you!</p>
+                <p>First, there is BC based Blue Goose - “From farm to fork with nothing in-between”. Blue Goose grow, process, and package their own beef, chicken, and fish, all through a process of Vertical Integration. Their unique process entails that they themselves take care of each step of the process of preparing meat products, and therefore are in complete control of keeping their food natural and sustainable. Blue Goose has designed Vertical Integration to ensure quality animal living standards and conditions, healthy diet and nutrition, humane treatment (influenced by the practices of Temple Grandin), and official recognition by organic authorities. With that, I’m very excited that Blue Goose has made it to the Night Market, for meat-eaters who are looking for sustainable and ethical options.</p>
+                
+                <p>Next, I would like to talk about Tori’s Bakeshop! My sweet tooth aches for this one. Tori’s Bakeshop is all about the environment. Being eco-friendly and all-natural organic means you can have your cake and eat it too (see what I did there?). This bakery offers dairy-free, egg-free, casein-free, refined sugar-free, and a variety of gluten-free treats. Refined sugar-free? How do they even do that? Tori’s pays close attention to how their ingredients are sourced, how much packaging is used, and how much waste they produce. Donuts, cinnamon buns, cupcakes, cookies, muffins, and scones, is your mouth watering yet? See you at the Night Market, Tori’s Bakeshop!</p>
+                
+                <p>Last but not least, there’s Toronto’s Actinolite. These guys know a thing or two about being green. Their focus is bringing urban gardens to the table for fresh and local menu options that evolve with seasonal availability. They believe that fresh tastes better, and constantly seek high-quality ingredients, visiting farmers markets and the actual town of Actinolite where the restaurant got its name. I’d LOVE to try their squid with wild ginger and peas, or the pike with knotweed, watercress, and elm. Look for Actinolite at this year’s Night Market and enjoy some environmentally friendly goodness!</p>
+                
+<p>These are only a few of the Night Market’s amazing vendors. The best way to find even more great green vendors is to head out to the Market yourself and try some fantastic food. Keep greening!
+</p>
             </div>
         </div>
 
