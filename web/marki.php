@@ -52,31 +52,46 @@
 
             </div>
         </div>
+
         <div class="row">
             <div class="small-8 small-centered columns">
-                <div id="comment_engine">
-<h2>Comments</h2>
-<div id="ce_list">
-    
-</div>
 
-<form name="ce_form" id="ce_form" method="post" action=" ">
-    Name:<br />
-    <input type="Text" name="ce_name" id="ce_name"/>
-    <br />
-    
-    Email:<br />
-     <input type="Text" name="ce_email" id="ce_email"/>
-    <br />
-    
-    Comment:<br />
-    <textarea name="ce_comment" id="ce_comment"></textarea>
-    
-    <br />
-    
-    <input type="submit" value="Add Comment"/>
-</form>
-</div>
+                <div id="comment_engine">
+                    <h2>Comments</h2>
+
+                    <div id="ce_list">                      
+                    </div>
+
+                    <form name="ce_form" id="ce_form" method="post" action=" ">
+
+                      <div class="row">
+                        <div class="large-12 columns">
+                          <label>Name:
+                            <input type="text" name="ce_name" id="ce_name" />
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="large-12 columns">
+                          <label>Email:
+                            <input type="text" name="ce_email" id="ce_email" />
+                          </label>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="large-12 columns">
+                          <label>Comment:
+                            <textarea name="ce_comment" id="ce_comment"></textarea>
+                          </label>
+                        </div>
+                      </div>
+
+                    <input type="submit" value="Add Comment"/>
+
+                    </form>
+                </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript">
@@ -129,8 +144,8 @@
         </div>
     </div>
     
-</div>
-</div>
+            </div>
+        </div>
 
 <?php include 'footer.php'; ?>
 
