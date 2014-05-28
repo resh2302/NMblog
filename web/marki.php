@@ -104,13 +104,49 @@
     $(document).ready(function(){
         
         $('#ce_form').submit(function(){
+           validateForm();
             ceAddComments();
+            document.getElementById("ce_form").reset();
             return false;
         });
         
         ceLoadComments();
     
     });
+    
+    
+    function validateForm()
+    {
+        var name = document.forms["ce_form"]["ce_name"].value;
+            var email = document.forms["ce_form"]["ce_email"].value;
+            var comment = document.forms["ce_form"]["ce_comment"].value;
+            if(name==null || name=="")
+            {
+                alert("Please enter your name");
+                return false;
+            }
+            if(email==null || email=="")
+            {
+                alert("Please enter your email");
+                return false;
+            }
+            else
+            {
+                var atpos = email.indexOf("@");
+                var dotpos = email.lastIndexOf(".");
+                if(atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length)
+                {
+                    alert("Not a valid e-mail address");
+                    return false;
+                }
+            }
+            if(comment==null || comment=="")
+            {
+                alert("Please enter your comments");
+                return false;
+            }
+        
+    }
     
     function ceLoadComments()
     {
@@ -146,7 +182,6 @@
                 }});
     }
 </script>
-
     
             </div>
         </div>
