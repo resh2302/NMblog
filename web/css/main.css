@@ -183,6 +183,59 @@ h1{
 
 .imgContent {
 }
+
+
+/*-------------------blog reply starts here-----------------*/
+
+
+
+.r_input{
+
+	margin-bottom: 20px;
+	width: 80%;
+	background-color: #ccc;
+	border: none;
+	padding: 1%;
+
+} 
+
+#ce_comment {
+	min-height: 200px;
+}
+
+#reply_submit{
+	color: #fff;
+	border: none;
+	padding:1% 2%;
+	background-color: #64c3cc;
+}
+
+#comment_engine{
+	background-color: #ebebeb;
+	padding-left: 71px;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+
+::-webkit-input-placeholder {
+   color: #fff;  
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+
+/*-------------------blog reply ends here-----------------*/
 /* ---------------------------- */
 
 /* iPads (portrait) ----------- */
@@ -224,6 +277,11 @@ h1{
     padding: 10px 0;
 	}
 
+	#comment_engine {
+
+	padding-left: 20px;
+	}
+
 }
 
 /* iPhone (portrait) --------- */
@@ -256,4 +314,6 @@ h1{
 	.auth-img{
     padding: 10px 0 20px;
 	}
+
+	
 }

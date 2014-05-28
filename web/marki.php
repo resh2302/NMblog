@@ -63,7 +63,7 @@
             <div class="small-8 small-centered columns blog-content">
 
                 <div id="comment_engine">
-                    <h2 class="name">Comments</h2>
+                    <h2 class="name">So, What do you think?</h2>
 
                     <div id="ce_list">                      
                     </div>
@@ -72,29 +72,29 @@
 
                       <div class="row">
                         <div class="large-12 columns">
-                          <label>Name:
-                            <input type="text" name="ce_name" id="ce_name" />
-                          </label>
+                      
+                            <input class="r_input" type="text" name="ce_name" id="ce_name" placeholder="Your name" />
+                          
                         </div>
                       </div>
 
                       <div class="row">
                         <div class="large-12 columns">
-                          <label>Email:
-                            <input type="text" name="ce_email" id="ce_email" />
-                          </label>
+                        
+                            <input class="r_input"  type="text" name="ce_email" id="ce_email" placeholder="Your email" />
+                          
                         </div>
                       </div>
                       
                       <div class="row">
                         <div class="large-12 columns">
-                          <label>Comment:
-                            <textarea name="ce_comment" id="ce_comment"></textarea>
-                          </label>
+                        
+                            <textarea class="r_input"  name="ce_comment" id="ce_comment" placeholder="Your comment"></textarea>
+                         
                         </div>
                       </div>
 
-                    <input type="submit" value="Add Comment"/>
+                    <input type="submit" id="reply_submit" value="Add Comment"/>
 
                     </form>
                 </div>
