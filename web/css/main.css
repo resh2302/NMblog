@@ -1,14 +1,25 @@
-@font-face { font-family: AWConqueror; src: url('../font/AWCo-FulFa-Free/AWConquerorCarved-Regular.otf'); }
-@font-face { font-family: AWConquerorDidot; src: url('../font/AWCo-FulFa-Free/AWConquerorDidot-Light.otf'); }
-@font-face { font-family: AWConquerorInline; src: url('../font/AWCo-FulFa-Free/AWConquerorInline-Regular.otf'); }
+@font-face { 
+	font-family: 'AWConqueror';
+	src: url('../font/AWCo-FulFa-Free/AWConquerorCarved-Regular.otf');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { 
+	font-family: 'AWConquerorDidot';
+	src: url('../font/AWCo-FulFa-Free/AWConquerorDidot-Light.otf');
+}
+
+@font-face { 
+	font-family: 'AWConquerorInline';
+	src: url('../font/AWCo-FulFa-Free/AWConquerorInline-Regular.otf');
+}
 
 
 header{
-	/*background: url(../images/header.png) no-repeat;*/
-	background: url(../images/nightMarketLogo.png) no-repeat;
+	background: url('../images/nightMarketLogo.png') no-repeat;
 	background-size: 100%;
 	text-indent: -9999px;
-	/*width: 100%;*/
 	min-height: 300px;
 	margin-top: 40px;
 }
@@ -18,22 +29,22 @@ body{
 	background-size: cover;
 }
 
-.black-ribbon{
-    height:85px;
+.black-ribbon {
     padding-top: 50px;
-    
 }
 
-.blgcontent{
+.blgcontent {
     width:100%;
-    min-height:100vh;
+    /*min-height:100vh*/;
     background-image:url('../images/Lined-Paper-White-Tileable-pattern.jpg');
-    background-color:#cccccc;
-    padding: 0px;
+    background-color:#ccc;
+    padding: 0;
 }
-.blog-head{
+
+/*.blog-head{
     height:150px;
-}
+}*/
+
 .blog-content{
     padding: 0;
     margin: 0;
@@ -42,7 +53,7 @@ body{
 }
 
 h1{
-    font-family: AWConqueror, sans-serif;
+    font-family: "AWConqueror", sans-serif;
     font-size: 2.8em;
     color: #2f2f2f;
     padding: 0;
@@ -55,47 +66,47 @@ h3 {
 }
 
 .by {
-    font-family: AWConquerorDidot, sans-serif;
+    font-family: "AWConquerorDidot", sans-serif;
     font-size: 1.6em;
     color: #828282;
 }
 
 .name {
-    font-family: AWConquerorInline, sans-serif;
+    font-family: "AWConquerorInline", sans-serif;
     font-size: 1.6em;
     color: #64c3cc;
     text-transform: uppercase;
 }
 
-.line{
-    
-    
-    padding:0px;
-    padding-bottom:10px;
+.line{   
+    padding: 0;
+    padding-bottom: 10px;
 }
+
 .divline{
     margin-top: 10px;
     margin-bottom: 10px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #64c3cc;
+    border-bottom: solid 2px #64c3cc;
 }
+
 .date, .comments{
     vertical-align: middle;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     color: #2f2f2f;
 }
+
 .date-cont{
     padding-bottom: 10px;
 }
-.auth-img{
-    padding-top:69px;
 
+.auth-img{
+    padding-top: 69px;
 }
+
 .bookmark{
     float:right;
-    padding-left:10px;
 }
+
 #home-content{
 	min-height: 500px;
 }
@@ -106,8 +117,8 @@ h3 {
     margin-bottom: -24px;
 	width: 172px;
 	position: relative;
-
 }
+
 .hex .top {
 	border-color: transparent transparent transparent transparent;
 	border-color: rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
@@ -120,15 +131,17 @@ h3 {
     border-left: 68px solid rgba(255,255,255,0);
     border-right: 68px solid rgba(255,255,255,0);
 }
+
 .hex .middle {
     width: 135px;
     height: 94px;
     background: #6C6;
     text-align: center;
 }
+
 .hex .bottom {
 	border-color: transparent transparent transparent transparent;
-	border-color: rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0) #ffffff;
+	border-color: rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0) #fff;
 	border-top-style: inset;
 	border-right-style: inset;
 	border-bottom-style: inset;
@@ -138,6 +151,7 @@ h3 {
     border-left: 68px solid rgba(255,255,255,0);
     border-right: 68px solid rgba(255,255,255,0);
 }
+
 .hex-row {
     clear: left;
 }
@@ -149,6 +163,7 @@ h3 {
 #hex5 a img{
 	width: 172px;
 }
+
 /* content hover plugin css */
 
 .contenthover { 
@@ -189,15 +204,24 @@ h3 {
 		margin-top: 10px;
 		width: 100% !important;
 	}
+
 	.hex-row.odd {
-		margin-left: 0px;
+		margin-left: 0;
 	}
+
 	#hex5{
 		margin-bottom: 0;
 	}
-	header {
-		min-height: 200px;
+
+	header{
+	background: url('../images/nightMarketLogoSmall.png');
+	background: url('../images/nightMarketLogoSmall.png');
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin-top: 0;
 	}
+
 }
 
 /* iPhone (portrait) --------- */
@@ -209,13 +233,20 @@ h3 {
 		margin-top: 10px;
 		width: 100% !important;
 	}
+
 	.hex-row.odd {
-		margin-left: 0px;
+		margin-left: 0;
 	}
+
 	#hex5{
 		margin-bottom: 0;
 	}
-	header {
-		min-height: 120px;
+
+	header{
+	background: url('../images/nightMarketLogoSmall.png');
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin-top: 0;
 	}
 }
