@@ -1,21 +1,24 @@
-<?php
+<?php include "header.php"; ?>
 
-include "header.php";
-
-?>
 <div class="wrapper">
+
     <div class="row">
     <div class="large-12 columns blgcontent">
+        
         <div class="black-ribbon">
-<!--            <img class="bookmark" src="images/bookmark.png" />-->
+            <a href="index.php"><img class="bookmark" src="images/bookmark.png" /></a>
         </div>
+        
         <div class="row">
             <div class="small-8 small-centered columns blog-head">
                 <div class="row">
                     <div class="small-10 columns line">
-                        <h1>PIZZERIA LIBRETTO</h1>
-                        <label class="by">By</label><label class="name"> MARKI SVEEN</label>
+                        <h1>Pizzeria Libretto</h1>
+                        
+                        <p><span class="by">By</span> <span class="name">Marki Sveen</span></p>
+
                         <div class="divline"></div>
+                        
                         <div class="row">
                             <div class="medium-4 columns date-cont"><img src="images/clock.png" /><label class="date"> May 26, 2014</label></div>
                             <div class="medium-4 columns comments-cont"><img src="images/comments.png" /><label class="comments"></label></div>
@@ -36,14 +39,16 @@ include "header.php";
         </div>
         <div class="row">
             <div class="small-8 small-centered columns blog-content">
-                
-                <p>Gentrify street art jean shorts Bushwick. Marfa VHS paleo, wayfarers scenester gentrify organic Helvetica chillwave tote bag sriracha Pitchfork Kickstarter food truck 8-bit. Yr raw denim sartorial, banh mi chambray Kickstarter street art roof party Cosby sweater pork belly gluten-free cornhole church-key. Semiotics Portland freegan farm-to-table, gluten-free wayfarers vegan. Wolf Carles sustainable vinyl. Church-key tousled chia PBR&B Portland cliche. Carles butcher yr tattooed skateboard bespoke.</p>
 
-                <P>Four loko Kickstarter try-hard, quinoa messenger bag banh mi twee sartorial fashion axe Brooklyn Carles cornhole banjo wolf. Intelligentsia bicycle rights gluten-free kitsch, dreamcatcher photo booth kale chips narwhal occupy pour-over DIY gentrify American Apparel 3 wolf moon. Chia Schlitz fap, YOLO Pinterest post-ironic ethical roof party. Yr wayfarers lomo synth craft beer, chambray letterpress scenester twee skateboard stumptown hashtag 3 wolf moon jean shorts. Kickstarter Banksy kitsch hoodie plaid, stumptown selvage ethical single-origin coffee quinoa asymmetrical. Single-origin coffee flexitarian before they sold out chia. Salvia banjo wolf quinoa Helvetica raw denim tousled.</P>
+                <p>On the popular Ossington strip between Dundas and Queen, one restaurant smokes out the rest. Pizzeria Libretto provides some of the best thin-crust pies in the city with a fresh and delicious range of topping options. Chefs Rocco Agostino and Max Rimaldi pride themselves on their traditional Neapolitan approach, using local ingredients and a wood fired oven with extremely high heat. At 900 degrees, baking time takes less than 90 seconds, and results in a crust charred to perfection.</p>
 
-                <P>Vinyl occupy distillery, VHS four loko lo-fi PBR. Blog semiotics 8-bit, vinyl irony kale chips photo booth sartorial brunch paleo. Bicycle rights crucifix plaid, pour-over Godard hashtag next level art party freegan meh. Cornhole Portland PBR gastropub flannel. Fanny pack wayfarers lo-fi, pork belly tattooed McSweeney's 90's you probably haven't heard of them. Ethical Wes Anderson Neutra, drinking vinegar four loko squid semiotics ennui small batch mlkshk viral chambray fashion axe. Meh Intelligentsia Marfa direct trade.</P>
+                <p>For an appetizer, calamari is offered breaded with buttermilk and a red pepper almond sauce, or grilled with chickpeas and dandelion greens. When it’s time for the main course, the white anchovy pizza with tomato, red chili and Buffalo mozzarella or duck confit with bosc pear are both solid picks. However, it doesn’t get any better than Libretto’s house-made sausage. This simple recipe with caramelized onions, mozzarella and chili oil is a consistently delicious go-to slice.</p>
 
-                <P>Squid next level Banksy slow-carb banjo butcher, forage Pitchfork semiotics meh pour-over farm-to-table meggings deep v whatever. Retro Kickstarter narwhal +1, food truck mlkshk leggings Godard Shoreditch semiotics cliche. Lomo fap tattooed blog. You probably haven't heard of them church-key crucifix bicycle rights, Austin ethnic disrupt messenger bag. Sartorial gentrify retro pickled vinyl before they sold out. Disrupt Intelligentsia dreamcatcher, keffiyeh pork belly four loko flannel tattooed Thundercats vinyl Kickstarter Shoreditch kale chips banh mi bitters. Vinyl fixie banjo McSweeney's, squid shabby chic lomo pickled.</p>
+                <p>Paulette’s Donuts originally made its name with a mash-up combination of baked sweets and fried chicken. Sadly, they’ve since dropped the poultry half of the equation, but their sugary side is still going strong with unusual options such as the Root Beer Float, Blueberry Balsamic, Candy Apple, Mango Lassi, and Mojito. These days, the hole-y grails can be gripped at both the Yonge Street and Queen East locations of Delica Kitchen, or ordered online for special events. For a sweet treat at the Night Market, make sure you don’t skip past Paulette.</p>
+
+                <p>For BBQ cravers, Barque is a no-brainer. The Roncesvalles smokehouse tavern is best known for its “Family Night” offered every Sunday with hefty portions made for heftier appetites. Loosen your pants and make room for multiple courses featuring a rotating menu of Southern-style sauce-slathered baby back ribs, chicken, brisket, wings, chili cheese fries, and maybe even something green. Desserts range from dark chocolate brownies to red velvet cookie sandwiches with more cream cheese than a Tim Horton’s bagel.</p>
+
+                <p>Of course, these are merely three of the many restaurants taking part in the Night Market for 2014. At least half the fun of this kind of event comes from exploring and discovering a few new favourites. If one tip can be passed along to a first-timer, make sure you pace yourself (and leave room for dessert)!</p>
 
             </div>
         </div>
