@@ -47,7 +47,19 @@
 
         <div class="row">
             <div class="small-8 small-centered columns blog-content">
-                <p>Place content here.</p>
+                <p>With so many beers to choose from, where do I begin?</p>
+                <p><span class="enlarge">ATTENTION BEER LOVERS</span>, while visiting <i>The Stop’s Night Market</i>, you must check out what The Amsterdam Brewery has to offer. </p>
+                <p>"They have a little something for everyone when it comes to beers. At the Amsterdam Brewery, beer is clearly the focal point as there's a wide selection of draft, cask offerings, seasonals, and even bottles from the cellar. As a creative way to sample your way through the beer menu, The BrewHouse offers a series of tasting flights, each named with a nod to the brewery's past: there's the Richmond and John, the King and Portland, the Front and Bathurst, and the Leaside." - blogTO</p>
+                <p>If you have not yet visited one of Toronto’s original craft brewer’s locations, you must go. Here are a few reasons why:</p>
+                <ol>
+                    <li>Free tours and tastings every Saturday!</li>
+                    <li>Fancy a beer by the fire? Or a cold brew outside while lounging on a Muskoka chair with a beautiful view of the water? Yes, that’s right, lakeside patio at your service.</li>
+                    <li>Did I mention they have their own beer store, which is open until 11pm and open on holidays?</li>
+                </ol>
+                <p>What’s not to love?</p>
+                <p>"The Amsterdam Brewing Company is an independently owned and operated craft brewery that is deeply rooted in the city of Toronto. A pioneer of the Canadian craft beer revolution in 1986, initially called the Amsterdam Brasserie and Brew Pub, The Amsterdam was the first craft brewery in Toronto. All beers are GMO free, without preservatives, and never heat pasteurized. Back to their roots as a brewpub, Amsterdam Brewery now pours its brews at Amsterdam BrewHouse.” -torontobeerblog </p>
+                <p>To learn more about the Amsterdam Brewing Co. visit <a href="http://www.amsterdambeer.com/" target="_blank">amsterdambeer.com</a>.</p>
+                <p>To learn more about Amsterdam BrewHouse, visit <a href="http://www.amsterdambrewhouse.com/" target="_blank">amsterdambrewhouse.com</a>.</p>
             </div>
         </div>
 
